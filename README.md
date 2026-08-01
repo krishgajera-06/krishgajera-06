@@ -1,151 +1,135 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Krish Gajera — Identity Clearance Card" width="100%" />
+<img src="./assets/hero.svg" alt="Krish Gajera — Digital Security Dossier" width="100%" />
 
 </div>
 
 <br/>
-
-# Security engineer in the making.
-
-I build at the intersection of cybersecurity, intelligent systems, and software engineering — exploring how secure infrastructure, automation, and AI combine into systems that are both resilient and useful.
-
-`CYBERSECURITY` &nbsp;·&nbsp; `AI SECURITY` &nbsp;·&nbsp; `SOFTWARE ENGINEERING` &nbsp;·&nbsp; `COMPUTER ENGINEERING`
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-## System status
-
-| | |
-|---|---|
-| 🟡 **BUILDING** | Security projects |
-| 🟡 **LEARNING** | Advanced penetration testing |
-| 🟡 **EXPLORING** | Bug bounty / web security |
-| 🟡 **RESEARCHING** | AI × cybersecurity |
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-## Capability matrix
-
-**SECURITY**
-Linux · Kali Linux · Penetration Testing · Web Security · Honeypots · Threat Monitoring
-
-**ENGINEERING**
-Python · Java · React · FastAPI · Flask · SQL
-
-**INFRASTRUCTURE**
-Docker · Git · GitHub Actions · CI/CD · PostgreSQL · DevSecOps
-
-**INTELLIGENCE**
-Machine Learning · AI Security · Automation · Security Analytics · Threat Intelligence
-
-<img src="./assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-<img src="./assets/security-core.svg" alt="Security architecture core map" width="100%" />
+Computer Engineering student working across cybersecurity, software engineering and intelligent systems.
+
+`OFFENSIVE SECURITY` &nbsp;·&nbsp; `SECURITY ENGINEERING` &nbsp;·&nbsp; `AI × CYBERSECURITY` &nbsp;·&nbsp; `DEVSECOPS`
 
 </div>
 
-<br/>
+<img src="./assets/divider-01.svg" alt="" width="100%" />
 
-## Selected operations
+<div align="center">
 
-**01 · IoT Deception Honeypot**
-A deception-technology testbed for observing real attacker behavior against exposed IoT-style services.
-`Cowrie` `Docker` `Grafana` `Loki` `Linux`
-- Deployed Cowrie as a low/medium-interaction honeypot
-- Centralized logs and built live dashboards for attack monitoring
-- Used Grafana + Loki for threat analysis of captured sessions
+### 01 / IDENTITY
 
-**02 · SecureShield AI**
+# SECURITY IS NOT<br/>A FEATURE.
+# IT IS AN ENGINEERING<br/>DISCIPLINE.
+
+</div>
+
+<img src="./assets/status.svg" alt="System status" width="100%" />
+
+<img src="./assets/divider-02.svg" alt="" width="100%" />
+
+<div align="center">
+
+<img src="./assets/capability-map.svg" alt="Capability map" width="100%" />
+
+</div>
+
+**OFFENSIVE** — Kali · Web Security · Pentesting · Honeypots
+**ENGINEERING** — Python · Java · React · FastAPI
+**INFRASTRUCTURE** — Docker · GitHub Actions · CI/CD · DevSecOps
+**INTELLIGENCE** — Machine Learning · AI Security · Automation · Threat Analysis
+
+<img src="./assets/security-radar.svg" alt="Security radar" width="100%" />
+
+<img src="./assets/divider-03.svg" alt="" width="100%" />
+
+<div align="center">
+
+### 02 / SELECTED OPERATIONS
+
+</div>
+
+<img src="./assets/project-honeypot.svg" alt="IoT Deception Honeypot" width="100%" />
+
+A deception environment for observing real attacker behavior against exposed IoT-style services.
+- Cowrie deployed as a low/medium-interaction honeypot
+- Centralized logs into live Grafana + Loki dashboards
+- Attack sessions studied for threat analysis
+
+[Repository ↗](https://github.com/krishgajera-06)
+
+<img src="./assets/project-secureshield.svg" alt="SecureShield AI" width="100%" />
+
 An AI-assisted security analysis service for triaging and investigating threats.
-`Python` `FastAPI` `PostgreSQL` `Docker` `AI`
-- FastAPI backend for structured security analysis workflows
+- FastAPI backend for structured analysis workflows
 - PostgreSQL-backed threat intelligence storage
 - AI-assisted investigation to accelerate analyst triage
 
-**03 · Student Performance Predictor**
+[Repository ↗](https://github.com/krishgajera-06)
+
+<img src="./assets/project-ml.svg" alt="Student Performance Predictor" width="100%" />
+
 A full-stack ML application with role-based dashboards.
-`Python` `Machine Learning` `Flask` `React`
 - Flask + React application with authentication
 - Separate student and teacher dashboards
 - ML model driving performance predictions
 
-**04 · Enterprise IaC Pipeline**
+[Repository ↗](https://github.com/krishgajera-06)
+
+<img src="./assets/project-iac.svg" alt="Enterprise IaC Pipeline" width="100%" />
+
 A DevSecOps pipeline treating infrastructure as versioned, tested code.
-`Docker` `GitHub Actions` `CI/CD` `IaC`
 - Infrastructure as Code across environments
 - CI/CD via GitHub Actions
-- Security checks folded into the pipeline, not bolted on after
+- Security checks built into the pipeline, not bolted on after
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+[Repository ↗](https://github.com/krishgajera-06)
 
-## Contribution activity
+<img src="./assets/divider-01.svg" alt="" width="100%" />
 
 <div align="center">
 
-<img src="./assets/contributions.svg" alt="Contribution activity graph" width="100%" />
-
-</div>
+<img src="./assets/contribution-signal.svg" alt="Signal / 365 contribution activity" width="100%" />
 
 <sub>Refreshed daily from public GitHub contribution data — see <a href="./scripts">/scripts</a>.</sub>
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+</div>
 
-## Credentials
-
-**01 · Google Cybersecurity Certificate**
-Security fundamentals · Linux · Networking · Threat analysis · Incident response · Security operations
-
-**02 · Cybersecurity Internship — InfoTact Solutions**
-Deception technology · Security monitoring · Infrastructure · Threat analysis · Hands-on cybersecurity work
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-## Current mission
-
-```
-ADVANCED PENETRATION TESTING   ████████░░  BUILDING
-BUG BOUNTY / WEB SECURITY      ██████░░░░  EXPLORING
-AI × CYBERSECURITY             ███████░░░  BUILDING
-SECURITY ENGINEERING           ████████░░  ACTIVE
-```
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-## Engineering philosophy
-
-```
-BUILD BEFORE CLAIMING EXPERTISE.
-
-UNDERSTAND THE ATTACK
-BEFORE DESIGNING THE DEFENSE.
-
-AUTOMATE REPETITION.
-INVESTIGATE ANOMALIES.
-
-SECURITY SHOULD BE STRONG
-WITHOUT BECOMING UNUSABLE.
-```
-
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider-02.svg" alt="" width="100%" />
 
 <div align="center">
 
-### HAVE AN INTERESTING SECURITY PROBLEM?
+### 03 / VERIFIED CREDENTIALS
 
-Let's build something worth defending.
+</div>
 
-[![Connect on LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-0D0F12?style=for-the-badge&logo=linkedin&logoColor=E6C875&labelColor=050607)](https://www.linkedin.com/in/krish-gajera-2b03a43b9)
-[![Explore GitHub](https://img.shields.io/badge/EXPLORE-GITHUB-0D0F12?style=for-the-badge&logo=github&logoColor=E6C875&labelColor=050607)](https://github.com/krishgajera-06)
+| | |
+|---|---|
+| **GOOGLE CYBERSECURITY** <br/> `STATUS · COMPLETED` | **INFOTACT SOLUTIONS** <br/> `CYBERSECURITY INTERNSHIP` |
+| Security · Networking · Linux · Incident Response | Deception · Monitoring · Infrastructure · Threat Analysis |
 
-<br/>
+<img src="./assets/protocols.svg" alt="Active protocols" width="100%" />
 
-**KRISH GAJERA**
-CYBERSECURITY × ENGINEERING × AI
-SURAT, INDIA
+<img src="./assets/trajectory.svg" alt="Trajectory" width="100%" />
 
-BUILD WHAT OTHERS TRUST.
+<img src="./assets/divider-03.svg" alt="" width="100%" />
+
+<div align="center">
+
+# UNDERSTAND<br/>THE ATTACK.
+# ENGINEER<br/>THE DEFENSE.
+# AUTOMATE<br/>THE REST.
+
+<sub>Build before claiming expertise. Investigate anomalies. Security should be strong without becoming unusable.</sub>
+
+</div>
+
+<img src="./assets/final.svg" alt="Final transmission" width="100%" />
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-050505?style=for-the-badge&logo=linkedin&logoColor=E8D394&labelColor=0B0B0B)](https://www.linkedin.com/in/krish-gajera-2b03a43b9)
+[![GitHub](https://img.shields.io/badge/GITHUB-050505?style=for-the-badge&logo=github&logoColor=E8D394&labelColor=0B0B0B)](https://github.com/krishgajera-06)
 
 </div>
