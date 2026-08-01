@@ -1,205 +1,114 @@
 <div align="center">
 
-<img src="./assets/cyber-header.svg" width="100%" alt="Krish Gajera cyber header"/>
+<img src="./assets/luxury-hero.svg" width="100%" alt="Krish Gajera"/>
 
 <br>
 
-<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=39D353"></a>
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF"></a>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=700&color=39D353&center=true&vCenter=true&width=760&lines=%24+whoami;%3E+Computer+Engineering+Student;%3E+Cybersecurity+%26+Ethical+Hacking;%3E+AI+%C3%97+Security+%C3%97+Engineering;%3E+Build.+Break.+Secure.+Repeat." alt="Typing animation"/>
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LINKEDIN-111111?style=flat-square&logo=linkedin&logoColor=D6B86C"></a>&nbsp;
+<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GITHUB-111111?style=flat-square&logo=github&logoColor=D6B86C"></a>
 
 </div>
 
-## `01 // SYSTEM_PROFILE`
+<br>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="18%" valign="top"><sub>01 / PROFILE</sub></td>
+<td width="82%">
 
-### `krish@kali:~$ whoami`
+## Security engineer in the making.
 
-```yaml
-name: Krish Gajera
-role: Computer Engineering Student
-focus:
-  - Cybersecurity
-  - Ethical Hacking
-  - AI Security
-  - Software Engineering
-mindset: Build • Break • Secure • Learn
-```
+I build at the intersection of **cybersecurity, intelligent systems and software engineering** — exploring how secure infrastructure, automation and AI can create systems that are both resilient and useful.
 
-</td>
-<td width="50%" valign="top">
-
-### `status --live`
-
-```diff
-+ Building real-world security projects
-+ Learning penetration testing
-+ Exploring bug bounty
-+ Working with Linux & Docker
-+ Combining AI with cybersecurity
-! Always learning
-```
+`Computer Engineering` &nbsp; `Cybersecurity` &nbsp; `AI Security` &nbsp; `Software Engineering`
 
 </td>
 </tr>
 </table>
 
-## `02 // TECH_ARSENAL`
+<br>
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,react,vite,nodejs,express,flask,fastapi&perline=13&theme=dark" />
-<br>
-<img src="https://skillicons.dev/icons?i=kali,linux,docker,git,github,githubactions,bash,postgres,mysql,vscode&perline=10&theme=dark" />
-
-<br><br>
-
-`Cowrie` • `Grafana` • `Loki` • `Honeypots` • `Threat Monitoring` • `Network Security` • `DevSecOps`
-
+<img src="./assets/expertise.svg" width="100%" alt="Expertise"/>
 </div>
 
-## `03 // FEATURED_OPERATIONS`
+<br>
+
+<div align="center">
+<img src="./assets/projects.svg" width="100%" alt="Selected Work"/>
+</div>
+
+<br>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="18%" valign="top"><sub>04 / GITHUB</sub></td>
+<td width="82%">
 
-### 🍯 IoT Deception Honeypot
-**Deception-driven attack monitoring environment**
+## Engineering in public.
 
-`Cowrie` `Docker` `Grafana` `Loki` `Linux`
-
-- Captures malicious SSH activity
-- Centralized attack logging
-- Visual threat monitoring
-- Attacker behavior analysis
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ SecureShield AI
-**AI-assisted cybersecurity analysis platform**
-
-`Python` `FastAPI` `PostgreSQL` `Docker` `AI`
-
-- Automated security analysis
-- Threat intelligence workflows
-- Security-focused backend APIs
-- AI-assisted investigation
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Student Performance Predictor
-**Machine-learning prediction platform**
-
-`Python` `ML` `Flask` `React`
-
-- Academic performance prediction
-- Student & teacher dashboards
-- Authentication
-- ML-powered insights
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Enterprise IaC Pipeline
-**Infrastructure automation & DevSecOps**
-
-`IaC` `Docker` `GitHub Actions` `DevOps`
-
-- Automated infrastructure workflows
-- CI/CD pipeline concepts
-- Repeatable deployments
-- DevSecOps practices
+<div align="center">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&hide_border=true&bg_color=0a0a0b&title_color=d6b86c&text_color=aaa08d&icon_color=d6b86c"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishgajera-06&layout=compact&hide_border=true&bg_color=0a0a0b&title_color=d6b86c&text_color=aaa08d"/>
+<br>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=0a0a0b&color=aaa08d&line=c5a45e&point=ead8aa&area=true&hide_border=true"/>
+</div>
 
 </td>
 </tr>
 </table>
 
-## `04 // GITHUB_INTELLIGENCE`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=00D9FF&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishgajera-06&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" />
-
 <br>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=krishgajera-06&theme=github-dark-blue&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=00D9FF" />
-
-<br>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=0D1117&color=C9D1D9&line=39D353&point=00D9FF&area=true&hide_border=true" />
-
-</div>
-
-## `05 // SNAKE.EXE`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
-## `06 // SECURITY_CREDENTIALS`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="18%" valign="top"><sub>05 / CREDENTIALS</sub></td>
+<td width="82%">
 
-### 🛡 Google Cybersecurity
-Security fundamentals, Linux, networking, threat analysis, incident response and security operations.
+### Google Cybersecurity
+Security fundamentals · Linux · networking · threat analysis · incident response · security operations
 
-</td>
-<td width="50%" valign="top">
-
-### 💼 Cybersecurity Internship
-Hands-on security work involving deception technology, monitoring, infrastructure and threat analysis.
+### Cybersecurity Internship
+Hands-on work across deception technology, monitoring, infrastructure and threat analysis.
 
 </td>
 </tr>
 </table>
 
-## `07 // CURRENT_MISSION`
+<br>
 
-```text
-krish@kali:~$ cat objectives.txt
+<table>
+<tr>
+<td width="18%" valign="top"><sub>06 / NOW</sub></td>
+<td width="82%">
 
-[01] Advanced Penetration Testing       [██████████░░] LEARNING
-[02] Bug Bounty Hunting                 [████████░░░░] EXPLORING
-[03] AI × Cybersecurity                 [█████████░░░] BUILDING
-[04] Production Security Projects       [██████████░░] ACTIVE
+## Current direction.
 
-STATUS: ONLINE
-MODE:   BUILD → BREAK → ANALYZE → SECURE → REPEAT
-```
+`01` &nbsp; Advanced penetration testing  
+`02` &nbsp; Bug bounty & web security  
+`03` &nbsp; AI × cybersecurity  
+`04` &nbsp; Production-grade security projects
 
-## `08 // ESTABLISH_CONNECTION`
+</td>
+</tr>
+</table>
+
+<br><br>
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=0D1117"></a>
-<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/FOLLOW_ON_GITHUB-39D353?style=for-the-badge&logo=github&logoColor=0D1117"></a>
+<sub>ESTABLISH CONNECTION</sub>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=krishgajera-06&label=PROFILE+VIEWS&style=for-the-badge&color=238636"/>
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><b>LINKEDIN ↗</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/krishgajera-06"><b>GITHUB ↗</b></a>
 
-<br><br>
+<br><br><br>
 
-### `> BUILD • BREAK • SECURE • LEARN • REPEAT_`
+### `ENGINEER THE UNKNOWN.`
+
+<sub>KRISH GAJERA · SURAT, INDIA · 2026</sub>
 
 </div>
