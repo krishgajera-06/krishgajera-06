@@ -1,278 +1,205 @@
 <div align="center">
 
-# 👋 Hey, I'm Krish Gajera
+<img src="./assets/cyber-header.svg" width="100%" alt="Krish Gajera cyber header"/>
 
-### Cybersecurity Enthusiast • Software Developer • Computer Engineering Student
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=700&lines=Cybersecurity+%26+Ethical+Hacking;Building+Secure+Systems;AI+%2B+Security+%2B+Software;Linux+%7C+Python+%7C+Docker;Always+Learning.+Always+Building." alt="Typing SVG" />
+<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=39D353"></a>
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF"></a>
 
-<br/>
+<br><br>
 
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9">
-  <img src="https://img.shields.io/badge/LinkedIn-Krish_Gajera-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/krishgajera-06">
-  <img src="https://img.shields.io/badge/GitHub-krishgajera--06-181717?style=for-the-badge&logo=github"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=700&color=39D353&center=true&vCenter=true&width=760&lines=%24+whoami;%3E+Computer+Engineering+Student;%3E+Cybersecurity+%26+Ethical+Hacking;%3E+AI+%C3%97+Security+%C3%97+Engineering;%3E+Build.+Break.+Secure.+Repeat." alt="Typing animation"/>
 
 </div>
 
----
-
-## 🧑‍💻 About Me
-
-```bash
-krish@github:~$ whoami
-
-> Computer Engineering Student
-> Cybersecurity Enthusiast
-> Software Developer
-> Linux Explorer
-> Security Project Builder
-```
-
-- 🛡️ Passionate about **Cybersecurity & Ethical Hacking**
-- 🔐 Exploring **Penetration Testing, Bug Bounty & Network Security**
-- 🤖 Interested in the intersection of **AI + Cybersecurity**
-- 🐧 Working with **Linux, Kali Linux & security tools**
-- 🐳 Building environments using **Docker**
-- ⚡ Creating real-world security and software projects
-- 🎯 Goal: Become a highly skilled **Cybersecurity Engineer**
-
----
-
-# ⚡ Tech Arsenal
-
-<div align="center">
-
-### 👨‍💻 Programming
-
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css&theme=dark" />
-
-### 🌐 Development
-
-<img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,flask,fastapi&theme=dark" />
-
-### 🛡️ Security & DevOps
-
-<img src="https://skillicons.dev/icons?i=kali,linux,docker,git,github,bash&theme=dark" />
-
-### 🗄️ Database & Tools
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,vscode,githubactions&theme=dark" />
-
-</div>
-
----
-
-# 🛡️ Cybersecurity
-
-```text
-╭─────────────────────────────────────────────╮
-│             SECURITY TOOLKIT                │
-├─────────────────────────────────────────────┤
-│  Kali Linux        │  Ethical Hacking       │
-│  Linux             │  Network Security      │
-│  Cowrie Honeypot   │  Threat Monitoring     │
-│  Docker            │  Security Labs         │
-│  Grafana           │  Log Analysis          │
-│  Loki              │  Penetration Testing   │
-╰─────────────────────────────────────────────╯
-```
-
-Currently exploring:
-
-`Penetration Testing` • `Bug Bounty` • `Web Security` • `Network Security` • `AI Security`
-
----
-
-# 🚀 Featured Projects
+## `01 // SYSTEM_PROFILE`
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🍯 IoT Deception Honeypot
+### `krish@kali:~$ whoami`
 
-A cybersecurity deception environment designed to capture and analyze malicious activity targeting IoT systems.
-
-**Tech**
-
-`Cowrie` `Docker` `Grafana` `Loki` `Linux`
-
-**Highlights**
-
-- Honeypot-based attack detection
-- Centralized logging
-- Security monitoring
-- Attacker activity analysis
+```yaml
+name: Krish Gajera
+role: Computer Engineering Student
+focus:
+  - Cybersecurity
+  - Ethical Hacking
+  - AI Security
+  - Software Engineering
+mindset: Build • Break • Secure • Learn
+```
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+### `status --live`
 
-### 🛡️ SecureShield AI
-
-AI-powered cybersecurity platform focused on intelligent security analysis and threat detection.
-
-**Tech**
-
-`Python` `FastAPI` `PostgreSQL` `Docker` `AI`
-
-**Highlights**
-
-- Security analysis
-- Automated threat insights
-- Backend APIs
-- AI-assisted workflows
+```diff
++ Building real-world security projects
++ Learning penetration testing
++ Exploring bug bounty
++ Working with Linux & Docker
++ Combining AI with cybersecurity
+! Always learning
+```
 
 </td>
 </tr>
+</table>
 
+## `02 // TECH_ARSENAL`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,react,vite,nodejs,express,flask,fastapi&perline=13&theme=dark" />
+<br>
+<img src="https://skillicons.dev/icons?i=kali,linux,docker,git,github,githubactions,bash,postgres,mysql,vscode&perline=10&theme=dark" />
+
+<br><br>
+
+`Cowrie` • `Grafana` • `Loki` • `Honeypots` • `Threat Monitoring` • `Network Security` • `DevSecOps`
+
+</div>
+
+## `03 // FEATURED_OPERATIONS`
+
+<table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧠 Student Performance Predictor
+### 🍯 IoT Deception Honeypot
+**Deception-driven attack monitoring environment**
 
-Machine-learning application for predicting student academic performance.
+`Cowrie` `Docker` `Grafana` `Loki` `Linux`
 
-**Tech**
-
-`Python` `Machine Learning` `Flask` `React`
-
-**Highlights**
-
-- ML prediction
-- Student dashboard
-- Teacher dashboard
-- Secure authentication
+- Captures malicious SSH activity
+- Centralized attack logging
+- Visual threat monitoring
+- Attacker behavior analysis
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+### 🛡️ SecureShield AI
+**AI-assisted cybersecurity analysis platform**
+
+`Python` `FastAPI` `PostgreSQL` `Docker` `AI`
+
+- Automated security analysis
+- Threat intelligence workflows
+- Security-focused backend APIs
+- AI-assisted investigation
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 Student Performance Predictor
+**Machine-learning prediction platform**
+
+`Python` `ML` `Flask` `React`
+
+- Academic performance prediction
+- Student & teacher dashboards
+- Authentication
+- ML-powered insights
+
+</td>
+<td width="50%" valign="top">
 
 ### ⚙️ Enterprise IaC Pipeline
+**Infrastructure automation & DevSecOps**
 
-Infrastructure automation project focused on reliable and repeatable deployment workflows.
+`IaC` `Docker` `GitHub Actions` `DevOps`
 
-**Tech**
-
-`DevOps` `IaC` `Docker` `GitHub Actions`
-
-**Highlights**
-
-- Infrastructure automation
-- CI/CD concepts
-- Deployment workflow
+- Automated infrastructure workflows
+- CI/CD pipeline concepts
+- Repeatable deployments
 - DevSecOps practices
 
 </td>
 </tr>
 </table>
 
----
-
-# 📊 GitHub Analytics
+## `04 // GITHUB_INTELLIGENCE`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=00D9FF&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishgajera-06&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishgajera-06&layout=compact&theme=github_dark&hide_border=true" />
+<br>
 
-<br/>
+<img width="70%" src="https://streak-stats.demolab.com?user=krishgajera-06&theme=github-dark-blue&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=00D9FF" />
 
-<img width="70%" src="https://streak-stats.demolab.com?user=krishgajera-06&theme=github-dark-blue&hide_border=true" />
+<br>
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=0D1117&color=C9D1D9&line=39D353&point=00D9FF&area=true&hide_border=true" />
 
 </div>
 
----
-
-# 📈 Contribution Activity
+## `05 // SNAKE.EXE`
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&theme=github-compact&hide_border=true&area=true" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
----
+## `06 // SECURITY_CREDENTIALS`
 
-# 🏆 GitHub Achievements
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+### 🛡 Google Cybersecurity
+Security fundamentals, Linux, networking, threat analysis, incident response and security operations.
 
-<img src="https://github-profile-trophy.vercel.app/?username=krishgajera-06&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" />
-
-</div>
-
----
-
-# 🎓 Certifications & Experience
-
-### 🛡️ Google Cybersecurity
-
-Completed cybersecurity training covering security fundamentals, Linux, networking, threat analysis, incident response, and security operations.
+</td>
+<td width="50%" valign="top">
 
 ### 💼 Cybersecurity Internship
+Hands-on security work involving deception technology, monitoring, infrastructure and threat analysis.
 
-Worked on practical cybersecurity projects involving security monitoring, deception technologies, infrastructure, and threat analysis.
+</td>
+</tr>
+</table>
 
----
+## `07 // CURRENT_MISSION`
 
-# 🎯 Current Focus
+```text
+krish@kali:~$ cat objectives.txt
 
-```python
-krish = {
-    "focus": [
-        "Cybersecurity",
-        "Ethical Hacking",
-        "Penetration Testing",
-        "Bug Bounty",
-        "AI Security"
-    ],
+[01] Advanced Penetration Testing       [██████████░░] LEARNING
+[02] Bug Bounty Hunting                 [████████░░░░] EXPLORING
+[03] AI × Cybersecurity                 [█████████░░░] BUILDING
+[04] Production Security Projects       [██████████░░] ACTIVE
 
-    "currently_building": "Security Projects",
-
-    "learning": [
-        "Advanced Linux",
-        "Web Security",
-        "Network Security",
-        "AI + Cybersecurity"
-    ],
-
-    "goal": "Cybersecurity Engineer"
-}
+STATUS: ONLINE
+MODE:   BUILD → BREAK → ANALYZE → SECURE → REPEAT
 ```
 
----
-
-# 🐍 Contribution Snake
+## `08 // ESTABLISH_CONNECTION`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/krishgajera-06/krishgajera-06/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=0D1117"></a>
+<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/FOLLOW_ON_GITHUB-39D353?style=for-the-badge&logo=github&logoColor=0D1117"></a>
 
-</div>
+<br><br>
 
----
+<img src="https://komarev.com/ghpvc/?username=krishgajera-06&label=PROFILE+VIEWS&style=for-the-badge&color=238636"/>
 
-# 🌐 Connect With Me
+<br><br>
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/krishgajera-06">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-### 💚 Build • Break • Secure • Learn • Repeat
-
-<img src="https://komarev.com/ghpvc/?username=krishgajera-06&label=PROFILE+VIEWS&style=for-the-badge&color=238636" />
+### `> BUILD • BREAK • SECURE • LEARN • REPEAT_`
 
 </div>
