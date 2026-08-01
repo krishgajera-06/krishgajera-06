@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="430"><style>text{font-family:monospace}.l{opacity:0;animation:a .4s ease forwards}@keyframes a{to{opacity:1}}.k{fill:#39d353}.v{fill:#c9d1d9}.m{fill:#8b949e}</style><rect x="1" y="1" width="518" height="428" rx="14" fill="#0d1117" stroke="#30363d"/><circle cx="22" cy="22" r="5" fill="#ff5f56"/><circle cx="39" cy="22" r="5" fill="#ffbd2e"/><circle cx="56" cy="22" r="5" fill="#27c93f"/><text x="78" y="27" font-size="13" class="m">krish@github: ~</text>
+<text x="24" y="70" font-size="19" font-weight="700" class="k l">krishgajera-06@github</text>
+<text x="24" y="105" font-size="14" class="v l" style="animation-delay:.2s">--------------------------</text>
+<text x="24" y="140" font-size="14" class="l" style="animation-delay:.4s"><tspan class="k">Role</tspan><tspan class="v">      Computer Engineering Student</tspan></text>
+<text x="24" y="175" font-size="14" class="l" style="animation-delay:.6s"><tspan class="k">Focus</tspan><tspan class="v">     Cybersecurity / Ethical Hacking</tspan></text>
+<text x="24" y="210" font-size="14" class="l" style="animation-delay:.8s"><tspan class="k">Learning</tspan><tspan class="v">  Pentesting • Bug Bounty • AI</tspan></text>
+<text x="24" y="245" font-size="14" class="l" style="animation-delay:1s"><tspan class="k">Stack</tspan><tspan class="v">     Python • Java • React • Linux</tspan></text>
+<text x="24" y="280" font-size="14" class="l" style="animation-delay:1.2s"><tspan class="k">Security</tspan><tspan class="v">  Kali • Docker • Cowrie • Grafana</tspan></text>
+<text x="24" y="315" font-size="14" class="l" style="animation-delay:1.4s"><tspan class="k">Projects</tspan><tspan class="v">  IoT Honeypot • SecureShield AI</tspan></text>
+<text x="24" y="365" font-size="13" class="m l" style="animation-delay:1.6s">[+] Build. Secure. Learn. Repeat.</text><text x="24" y="398" font-size="14" class="k l" style="animation-delay:1.8s">$ whoami_</text></svg>
