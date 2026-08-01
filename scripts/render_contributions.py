@@ -3,8 +3,9 @@
 render_contributions.py
 
 Reads scripts/contributions_data.json (produced by fetch_contributions.py)
-and renders assets/contributions.svg in the champagne-gold-on-black system,
-with a one-time diagonal "wave" reveal driven by pure CSS (no JS).
+and renders assets/contribution-signal.svg — the "SIGNAL / 365" activity
+visualization — in the champagne-on-black system, with a one-time diagonal
+wave reveal driven by pure CSS (no JS). High-activity days get a soft glow.
 
 If no data file / no parsed days exist, an empty grid is still rendered so
 the README never breaks — it simply shows no illuminated cells.
@@ -15,7 +16,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 DATA_PATH = Path(__file__).parent / "contributions_data.json"
-OUT_PATH = Path(__file__).parent.parent / "assets" / "contributions.svg"
+OUT_PATH = Path(__file__).parent.parent / "assets" / "contribution-signal.svg"
 
 CELL = 11
 GAP = 3
@@ -23,16 +24,16 @@ STEP = CELL + GAP
 COLS = 53
 ROWS = 7
 PAD_LEFT = 30
-PAD_TOP = 30
+PAD_TOP = 46
 PAD_RIGHT = 20
-PAD_BOTTOM = 30
+PAD_BOTTOM = 24
 
 LEVEL_COLOR = {
-    0: "#14161A",
-    1: "#4A4030",
-    2: "#8A7440",
-    3: "#C7A95A",
-    4: "#F1D98A",
+    0: "#111110",
+    1: "#463D28",
+    2: "#816B3B",
+    3: "#B99A4E",
+    4: "#E8D394",
 }
 
 
@@ -73,6 +74,7 @@ def render(grid):
     height = PAD_TOP + ROWS * STEP + PAD_BOTTOM
 
     cells = []
+    glows = []
     max_diag = COLS + ROWS
     for w, col in enumerate(grid):
         for r, day in enumerate(col):
@@ -82,6 +84,12 @@ def render(grid):
             color = LEVEL_COLOR.get(level, LEVEL_COLOR[0])
             diag = w + r
             delay = round((diag / max_diag) * 1.6, 3)
+            if level >= 3:
+                glows.append(
+                    f'<rect class="cell" x="{x-2}" y="{y-2}" width="{CELL+4}" height="{CELL+4}" '
+                    f'rx="3" fill="{color}" opacity="0.35" filter="url(#glow)" '
+                    f'style="animation-delay:{delay}s"/>'
+                )
             cells.append(
                 f'<rect class="cell" x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
                 f'rx="2" fill="{color}" style="animation-delay:{delay}s" '
@@ -89,17 +97,22 @@ def render(grid):
             )
 
     svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>Contribution Activity</title>
+  <title>Signal / 365 — contribution activity</title>
   <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
     <style>
       <![CDATA[
         .cell {{ opacity: 0; animation: reveal 0.5s ease-out forwards; }}
         @keyframes reveal {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
+        .mono {{ font-family: ui-monospace, "SFMono-Regular", monospace; letter-spacing: 3px; }}
       ]]>
     </style>
   </defs>
-  <rect width="{width}" height="{height}" fill="#050607"/>
-  <text x="{PAD_LEFT}" y="18" font-family="SFMono-Regular, ui-monospace, monospace" font-size="11" letter-spacing="2.5" fill="#777770">CONTRIBUTION ACTIVITY</text>
+  <rect width="{width}" height="{height}" fill="#050505"/>
+  <text x="{PAD_LEFT}" y="22" class="mono" font-size="11" fill="#55534E">ACTIVITY SIGNAL&#8202;&#8202;&#8226;&#8202;&#8202;365 DAY WINDOW&#8202;&#8202;&#8226;&#8202;&#8202;LIVE / GITHUB</text>
+  {"".join(glows)}
   {"".join(cells)}
 </svg>
 '''
