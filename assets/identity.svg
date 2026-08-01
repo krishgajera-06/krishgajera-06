@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380">
+<defs><linearGradient id="g"><stop stop-color="#b58a37"/><stop offset=".5" stop-color="#f0d28b"/><stop offset="1" stop-color="#7e5c20"/></linearGradient></defs>
+<style>.m{font-family:ui-monospace,Menlo,monospace}.h{font-family:Arial,sans-serif}.f{opacity:0;animation:f .8s ease forwards}@keyframes f{to{opacity:1}}</style>
+<rect width="1200" height="380" rx="25" fill="#090a0c" stroke="#292a2e"/>
+<text class="m" x="65" y="62" fill="#b28e48" font-size="12" letter-spacing="5">01 / IDENTITY</text><path d="M65 88H1135" stroke="#27282b"/>
+<text class="h f" x="65" y="155" fill="#f1f1ed" font-size="39" font-weight="700" style="animation-delay:.2s">Security engineering with intent.</text>
+<text class="h f" x="65" y="205" fill="#9b9da2" font-size="18" style="animation-delay:.4s">Computer Engineering student focused on cybersecurity, offensive security,</text>
+<text class="h f" x="65" y="235" fill="#9b9da2" font-size="18" style="animation-delay:.5s">AI-assisted defense and production-grade software systems.</text>
+<g class="f" style="animation-delay:.7s">
+<rect x="65" y="285" width="205" height="42" rx="21" fill="#111216" stroke="#3b3322"/><text class="m" x="167" y="311" text-anchor="middle" fill="#d4bb7b" font-size="12">CYBERSECURITY</text>
+<rect x="286" y="285" width="230" height="42" rx="21" fill="#111216" stroke="#303136"/><text class="m" x="401" y="311" text-anchor="middle" fill="#c9cacf" font-size="12">SOFTWARE ENGINEERING</text>
+<rect x="532" y="285" width="150" height="42" rx="21" fill="#111216" stroke="#303136"/><text class="m" x="607" y="311" text-anchor="middle" fill="#c9cacf" font-size="12">AI SECURITY</text>
+</g>
+</svg>
