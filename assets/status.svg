@@ -1,0 +1,54 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>System status — live telemetry</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B99A4E"/><stop offset="100%" stop-color="#E8D394"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+        .mono { font-family: ui-monospace, "SFMono-Regular", monospace; }
+        .num { fill: #55534E; font-size: 14px; letter-spacing: 2px; }
+        .lbl { fill: #F5F2EA; font-size: 26px; letter-spacing: 3px; font-weight: 600; }
+        @keyframes pulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+        #scan { animation: pulse 2.6s ease-in-out infinite; animation-delay: 1.6s; }
+      ]]>
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#050505"/>
+  <text x="60" y="50" class="mono num" letter-spacing="5">SYSTEM&#8202;/&#8202;LIVE</text>
+  <circle id="scan" cx="1128" cy="46" r="3" fill="url(#gold)"/>
+  <line x1="60" y1="68" x2="1140" y2="68" stroke="#F5F2EA" stroke-opacity="0.08"/>
+
+  <g class="mono">
+    <text x="60" y="130" class="num">01</text>
+    <text x="100" y="130" class="lbl">BUILD</text>
+    <rect x="300" y="116" width="780" height="7" rx="3.5" fill="#1A1A17"/>
+    <rect x="300" y="116" width="0" height="7" rx="3.5" fill="url(#gold)">
+      <animate attributeName="width" from="0" to="561" begin="0.3s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </rect>
+  </g>
+  <g class="mono">
+    <text x="60" y="182" class="num">02</text>
+    <text x="100" y="182" class="lbl">LEARN</text>
+    <rect x="300" y="168" width="780" height="7" rx="3.5" fill="#1A1A17"/>
+    <rect x="300" y="168" width="0" height="7" rx="3.5" fill="url(#gold)">
+      <animate attributeName="width" from="0" to="429" begin="0.48s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </rect>
+  </g>
+  <g class="mono">
+    <text x="60" y="234" class="num">03</text>
+    <text x="100" y="234" class="lbl">EXPLORE</text>
+    <rect x="300" y="220" width="780" height="7" rx="3.5" fill="#1A1A17"/>
+    <rect x="300" y="220" width="0" height="7" rx="3.5" fill="url(#gold)">
+      <animate attributeName="width" from="0" to="312" begin="0.6599999999999999s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </rect>
+  </g>
+  <g class="mono">
+    <text x="60" y="286" class="num">04</text>
+    <text x="100" y="286" class="lbl">RESEARCH</text>
+    <rect x="300" y="272" width="780" height="7" rx="3.5" fill="#1A1A17"/>
+    <rect x="300" y="272" width="0" height="7" rx="3.5" fill="url(#gold)">
+      <animate attributeName="width" from="0" to="468" begin="0.8400000000000001s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </rect>
+  </g>
+</svg>

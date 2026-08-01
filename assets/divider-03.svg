@@ -1,0 +1,15 @@
+<svg width="1200" height="40" viewBox="0 0 1200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      <![CDATA[
+        @keyframes travel { from { transform: translateX(0); } to { transform: translateX(1120px); } }
+        #dot { animation: travel 9s linear infinite; animation-delay: 1s; }
+      ]]>
+    </style>
+  </defs>
+  <line x1="600" y1="20" x2="600" y2="20" stroke="#3A392F" stroke-width="1">
+    <animate attributeName="x1" from="600" to="40" begin="0s" dur="0.7s" fill="freeze"/>
+    <animate attributeName="x2" from="600" to="1160" begin="0s" dur="0.7s" fill="freeze"/>
+  </line>
+  <circle id="dot" cx="40" cy="20" r="1.8" fill="#E8D394" opacity="0.85"/>
+</svg>

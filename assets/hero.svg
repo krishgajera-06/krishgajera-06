@@ -1,142 +1,112 @@
-<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>Krish Gajera — Identity Clearance Card</title>
+<svg width="1200" height="650" viewBox="0 0 1200 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Krish Gajera — Digital Security Dossier</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#08090B"/>
-      <stop offset="55%" stop-color="#050607"/>
-      <stop offset="100%" stop-color="#0D0F12"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="55%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#0B0B0B"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C7A95A"/>
-      <stop offset="50%" stop-color="#F1D98A"/>
-      <stop offset="100%" stop-color="#E6C875"/>
+      <stop offset="0%" stop-color="#B99A4E"/>
+      <stop offset="50%" stop-color="#E8D394"/>
+      <stop offset="100%" stop-color="#D6B96E"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="42%" r="75%">
-      <stop offset="0%" stop-color="#0D0F12" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    <radialGradient id="vign" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0B0B0B" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
     </radialGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#F4F1E8" stroke-opacity="0.045" stroke-width="1"/>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#F5F2EA" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.2"/>
-    </filter>
-
     <style>
       <![CDATA[
-        .serif   { font-family: Georgia, "Times New Roman", serif; }
-        .mono    { font-family: "SFMono-Regular", ui-monospace, "Courier New", monospace; }
-        .label   { font-size: 12px; letter-spacing: 3px; fill: #777770; }
-        .label-lit { font-size: 12px; letter-spacing: 3px; fill: #B8B6AE; }
+        .mono { font-family: ui-monospace, "SFMono-Regular", "Courier New", monospace; }
+        .serif { font-family: Georgia, "Times New Roman", serif; }
+        .label { font-size: 11px; letter-spacing: 3px; fill: #55534E; }
+        .label-lit { font-size: 11px; letter-spacing: 3px; fill: #A6A39B; }
 
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes shimmer { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
-        @keyframes pulse { 0%,100% { opacity: 0.25; r: 2.4px; } 50% { opacity: 0.9; r: 3.4px; } }
-        @keyframes driftRotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        @keyframes spinRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+        @keyframes pulse { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+        @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 
-        #meta        { opacity: 0; animation: fadeIn 0.6s ease-out 1.0s forwards; }
-        #name-krish  { opacity: 0; animation: fadeIn 0.5s ease-out 1.3s forwards; }
-        #name-gajera { opacity: 0; animation: fadeIn 0.5s ease-out 1.55s forwards; }
-        #subtitle    { opacity: 0; animation: fadeIn 0.6s ease-out 1.9s forwards; }
-        #hud         { opacity: 0; animation: fadeIn 0.6s ease-out 2.2s forwards; }
-        #monogram    { opacity: 0; animation: fadeIn 0.5s ease-out 0.9s forwards; }
+        #m-krish   { opacity: 0; animation: reveal 0.55s ease-out 1.2s forwards; }
+        #m-gajera  { opacity: 0; animation: reveal 0.55s ease-out 1.45s forwards; }
+        #m-tagline { opacity: 0; animation: reveal 0.6s ease-out 2.0s forwards; }
+        #m-meta1   { opacity: 0; animation: reveal 0.4s ease-out 1.8s forwards; }
+        #m-meta2   { opacity: 0; animation: reveal 0.4s ease-out 1.92s forwards; }
+        #m-meta3   { opacity: 0; animation: reveal 0.4s ease-out 2.04s forwards; }
+        #m-verified{ opacity: 0; animation: reveal 0.4s ease-out 2.16s forwards; }
+        #m-ring    { opacity: 0; animation: reveal 0.5s ease-out 0.9s forwards; }
 
-        #orbital { transform-origin: 600px 250px; animation: driftRotate 22s linear infinite; animation-delay: 3s; }
-        #ambient-dot { animation: pulse 3.4s ease-in-out infinite; animation-delay: 3s; }
-        #hairline-glow { animation: shimmer 5s ease-in-out infinite; animation-delay: 3s; }
-
-        @media (prefers-color-scheme: light) {
-          .label, .label-lit { fill: #6b6b63; }
-        }
+        #orbit-out { transform-origin: 950px 300px; animation: spin 34s linear infinite; animation-delay: 2.8s; }
+        #orbit-in  { transform-origin: 950px 300px; animation: spinRev 20s linear infinite; animation-delay: 2.8s; }
+        #status-dot{ animation: pulse 3.2s ease-in-out infinite; animation-delay: 2.8s; }
+        #hair-glow { animation: drift 7s ease-in-out infinite; animation-delay: 2.8s; }
       ]]>
     </style>
   </defs>
 
-  <!-- base -->
-  <rect width="1200" height="500" fill="url(#bg)"/>
-  <rect width="1200" height="500" fill="url(#grid)"/>
-  <rect width="1200" height="500" fill="url(#vignette)"/>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <rect width="1200" height="650" fill="url(#grid)"/>
+  <rect width="1200" height="650" fill="url(#vign)"/>
+  <rect x="30" y="30" width="1140" height="590" fill="none" stroke="#F5F2EA" stroke-opacity="0.06" stroke-width="1"/>
 
-  <!-- outer hairline frame -->
-  <rect x="34" y="34" width="1132" height="432" fill="none" stroke="#F4F1E8" stroke-opacity="0.08" stroke-width="1"/>
-
-  <!-- corner brackets : draw-in reveal -->
-  <g stroke="url(#gold)" stroke-width="1.6" fill="none">
-    <path d="M54 90 V54 H90" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
-      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.7s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1"/>
-    </path>
-    <path d="M1110 54 H1146 V90" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
-      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.7s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1"/>
-    </path>
-    <path d="M54 410 V446 H90" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
-      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.75s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1"/>
-    </path>
-    <path d="M1110 446 H1146 V410" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
-      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.75s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1"/>
-    </path>
-  </g>
-
-  <!-- scanning point, appears then travels to seed the expanding line -->
-  <circle cx="600" cy="250" r="0" fill="url(#gold)">
-    <animate attributeName="r" from="0" to="3.2" begin="0.2s" dur="0.2s" fill="freeze"/>
-    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.2s" fill="freeze"/>
+  <circle cx="600" cy="325" r="0" fill="url(#gold)">
+    <animate attributeName="r" from="0" to="3" begin="0.2s" dur="0.2s" fill="freeze"/>
   </circle>
 
-  <!-- center hairline: expands from a point at 0.4s -->
-  <line x1="600" y1="250" x2="600" y2="250" stroke="url(#gold)" stroke-width="1">
-    <animate attributeName="x1" from="600" to="150" begin="0.4s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.15 0 0.1 1"/>
-    <animate attributeName="x2" from="600" to="1050" begin="0.4s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.15 0 0.1 1"/>
+  <line id="hair-glow" x1="600" y1="325" x2="600" y2="325" stroke="url(#gold)" stroke-width="1" opacity="0.7">
+    <animate attributeName="x1" from="600" to="70" begin="0.4s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    <animate attributeName="x2" from="600" to="1130" begin="0.4s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
   </line>
-  <line id="hairline-glow" x1="150" y1="250" x2="1050" y2="250" stroke="url(#gold)" stroke-width="0.6" opacity="0.4"/>
 
-  <!-- monogram : original KG security insignia, upper-left of card -->
-  <g id="monogram" transform="translate(94,150)">
-    <path d="M28 0 L52 14 V42 L28 56 L4 42 V14 Z" fill="none" stroke="url(#gold)" stroke-width="1.4"/>
-    <!-- K -->
-    <path d="M17 12 V44 M17 28 L31 12 M17 28 L31 44" stroke="#F4F1E8" stroke-width="2" stroke-linecap="square"/>
-    <!-- G, built as an open arc + tab so it doesn't read as a literal letterform -->
-    <path d="M39 20 A9 9 0 1 0 39 36" stroke="#F4F1E8" stroke-width="2" fill="none" stroke-linecap="square"/>
-    <path d="M39 28 H45" stroke="#F4F1E8" stroke-width="2"/>
-    <circle cx="28" cy="28" r="1.4" fill="url(#gold)"/>
+  <g class="serif" font-weight="500" fill="#F5F2EA">
+    <text id="m-krish" x="70" y="300" font-size="128" letter-spacing="4">KRISH</text>
+    <text id="m-gajera" x="70" y="418" font-size="128" letter-spacing="2" fill="url(#gold)">GAJERA</text>
   </g>
 
-  <!-- metadata : four corners -->
-  <g id="meta" class="mono">
-    <text x="60" y="106" class="label-lit">KG&#8202;/&#8202;2026</text>
-    <text x="1140" y="106" text-anchor="end" class="label-lit">IDENTITY&#8202;/&#8202;VERIFIED</text>
-    <text x="60" y="418" class="label">SURAT&#8202;/&#8202;INDIA</text>
-    <text x="1140" y="418" text-anchor="end" class="label">SYSTEM&#8202;/&#8202;ONLINE</text>
+  <text id="m-tagline" x="72" y="466" class="mono" font-size="16" letter-spacing="2" fill="#A6A39B">I BUILD SYSTEMS <tspan fill="url(#gold)">WORTH DEFENDING.</tspan></text>
+
+  <g class="mono">
+    <text id="m-meta1" x="72" y="520" class="label">KG&#8202;/&#8202;ID-0606&#8202;&#8202;&#8226;&#8202;&#8202;CLEARANCE&#8202;/&#8202;SECURITY ENGINEERING</text>
+    <text id="m-meta2" x="72" y="544" class="label">LOCATION&#8202;/&#8202;SURAT, INDIA&#8202;&#8202;&#8226;&#8202;&#8202;SYSTEM&#8202;/&#8202;ACTIVE</text>
+    <text id="m-meta3" x="72" y="568" class="label">FIELD&#8202;/&#8202;CYBERSECURITY &#215; AI</text>
+    <text id="m-verified" x="72" y="596" class="label-lit" letter-spacing="4">
+      <tspan id="status-dot" fill="url(#gold)">&#9679;</tspan>&#8202;&#8202;IDENTITY VERIFIED
+    </text>
   </g>
 
-  <!-- name -->
-  <text id="name-krish" x="600" y="260" text-anchor="middle" class="serif" font-size="76" font-weight="500" letter-spacing="14" fill="#F4F1E8">KRISH</text>
-  <text id="name-gajera" x="600" y="336" text-anchor="middle" class="serif" font-size="76" font-weight="500" letter-spacing="10" fill="url(#gold)">GAJERA</text>
-
-  <!-- subtitle -->
-  <text id="subtitle" x="600" y="372" text-anchor="middle" class="mono" font-size="13" letter-spacing="5" fill="#B8B6AE">CYBERSECURITY &#215; ENGINEERING &#215; AI</text>
-
-  <!-- HUD detail row -->
-  <g id="hud" class="mono">
-    <text x="600" y="400" text-anchor="middle" font-size="10" letter-spacing="2.5" fill="#555550">21.1702&#176;N&#8202;/&#8202;72.8311&#176;E&#8202;&#8226;&#8202;SEC-CLEARANCE&#8202;&#8226;&#8202;REV.03</text>
-    <!-- crosshairs flanking the name block -->
-    <g stroke="#777770" stroke-width="1">
-      <path d="M240 250 H262 M251 239 V261"/>
-      <path d="M960 250 H938 M949 239 V261"/>
+  <g id="m-ring">
+    <g id="orbit-out">
+      <circle cx="950" cy="300" r="150" fill="none" stroke="#D6B96E" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="1 10"/>
+    </g>
+    <g id="orbit-in">
+      <circle cx="950" cy="300" r="112" fill="none" stroke="#D6B96E" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="6 5"/>
+    </g>
+    <g stroke="#55534E" stroke-width="1">
+      <path d="M950 138 V150 M950 450 V462 M788 300 H800 M1100 300 H1112"/>
     </g>
   </g>
 
-  <!-- ambient scan beam sweep, plays once -->
-  <rect x="-80" y="60" width="80" height="380" fill="url(#gold)" opacity="0">
-    <animate attributeName="opacity" values="0;0.09;0" keyTimes="0;0.5;1" begin="2.5s" dur="0.9s" fill="freeze"/>
-    <animate attributeName="x" from="-80" to="1200" begin="2.5s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+  <g stroke="url(#gold)" stroke-width="2.4" fill="none" stroke-linecap="square">
+    <path d="M918 262 V338 M918 300 L946 262 M918 300 L946 338" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.6s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </path>
+    <path d="M958 278 A22 22 0 1 0 958 322" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.75s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+    </path>
+    <path d="M958 300 H974" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.05s" dur="0.3s" fill="freeze"/>
+    </path>
+  </g>
+  <rect x="895" y="240" width="110" height="120" fill="none" stroke="#F5F2EA" stroke-opacity="0.12" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.4s" fill="freeze"/>
   </rect>
 
-  <!-- ambient orbital ring, subtle, begins after intro settles -->
-  <g id="orbital" opacity="0">
-    <animate attributeName="opacity" from="0" to="0.5" begin="2.9s" dur="0.6s" fill="freeze"/>
-    <ellipse cx="600" cy="250" rx="330" ry="120" fill="none" stroke="#E6C875" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="1 9"/>
-  </g>
-
-  <!-- faint ambient scan dot on the hairline -->
-  <circle id="ambient-dot" cx="600" cy="250" r="2.4" fill="#F1D98A" opacity="0.6"/>
+  <rect x="-100" y="30" width="100" height="590" fill="url(#gold)" opacity="0">
+    <animate attributeName="opacity" values="0;0.06;0" keyTimes="0;0.5;1" begin="2.4s" dur="0.9s" fill="freeze"/>
+    <animate attributeName="x" from="-100" to="1200" begin="2.4s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+  </rect>
 </svg>

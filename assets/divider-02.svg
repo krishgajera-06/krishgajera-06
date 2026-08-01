@@ -1,0 +1,22 @@
+<svg width="1200" height="48" viewBox="0 0 1200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      <![CDATA[
+        .mono { font-family: ui-monospace, "SFMono-Regular", monospace; font-size: 10px; letter-spacing: 3px; fill: #55534E; }
+      ]]>
+    </style>
+  </defs>
+  <line x1="40" y1="24" x2="40" y2="24" stroke="#D6B96E" stroke-opacity="0.5" stroke-width="1">
+    <animate attributeName="x2" from="40" to="220" begin="0s" dur="0.6s" fill="freeze"/>
+  </line>
+  <line x1="1160" y1="24" x2="1160" y2="24" stroke="#D6B96E" stroke-opacity="0.5" stroke-width="1">
+    <animate attributeName="x1" from="1160" to="980" begin="0s" dur="0.6s" fill="freeze"/>
+  </line>
+  <g stroke="#55534E" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.3s" fill="freeze"/>
+    <path d="M600 16 V32 M580 24 H620"/>
+  </g>
+  <text x="640" y="28" class="mono" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.4s" fill="freeze"/>SEC-0606
+  </text>
+</svg>
