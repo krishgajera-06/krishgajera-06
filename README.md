@@ -1,114 +1,100 @@
 <div align="center">
 
-<img src="./assets/luxury-hero.svg" width="100%" alt="Krish Gajera"/>
+<img src="./assets/hero.svg" width="100%" alt="Krish Gajera — Obsidian Signature">
 
 <br>
 
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LINKEDIN-111111?style=flat-square&logo=linkedin&logoColor=D6B86C"></a>&nbsp;
-<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GITHUB-111111?style=flat-square&logo=github&logoColor=D6B86C"></a>
-
-</div>
-
-<br>
-
-<table>
-<tr>
-<td width="18%" valign="top"><sub>01 / PROFILE</sub></td>
-<td width="82%">
-
-## Security engineer in the making.
-
-I build at the intersection of **cybersecurity, intelligent systems and software engineering** — exploring how secure infrastructure, automation and AI can create systems that are both resilient and useful.
-
-`Computer Engineering` &nbsp; `Cybersecurity` &nbsp; `AI Security` &nbsp; `Software Engineering`
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-<img src="./assets/expertise.svg" width="100%" alt="Expertise"/>
-</div>
-
-<br>
-
-<div align="center">
-<img src="./assets/projects.svg" width="100%" alt="Selected Work"/>
-</div>
-
-<br>
-
-<table>
-<tr>
-<td width="18%" valign="top"><sub>04 / GITHUB</sub></td>
-<td width="82%">
-
-## Engineering in public.
-
-<div align="center">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&hide_border=true&bg_color=0a0a0b&title_color=d6b86c&text_color=aaa08d&icon_color=d6b86c"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishgajera-06&layout=compact&hide_border=true&bg_color=0a0a0b&title_color=d6b86c&text_color=aaa08d"/>
-<br>
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=0a0a0b&color=aaa08d&line=c5a45e&point=ead8aa&area=true&hide_border=true"/>
-</div>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<table>
-<tr>
-<td width="18%" valign="top"><sub>05 / CREDENTIALS</sub></td>
-<td width="82%">
-
-### Google Cybersecurity
-Security fundamentals · Linux · networking · threat analysis · incident response · security operations
-
-### Cybersecurity Internship
-Hands-on work across deception technology, monitoring, infrastructure and threat analysis.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<table>
-<tr>
-<td width="18%" valign="top"><sub>06 / NOW</sub></td>
-<td width="82%">
-
-## Current direction.
-
-`01` &nbsp; Advanced penetration testing  
-`02` &nbsp; Bug bounty & web security  
-`03` &nbsp; AI × cybersecurity  
-`04` &nbsp; Production-grade security projects
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GITHUB-0B0B0D?style=for-the-badge&logo=github&logoColor=D8B968"></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0D?style=for-the-badge&logo=linkedin&logoColor=D8B968"></a>
 
 <br><br>
 
-<div align="center">
-
-<sub>ESTABLISH CONNECTION</sub>
+<img src="./assets/identity.svg" width="100%" alt="Identity">
 
 <br><br>
+
+<img src="./assets/capabilities.svg" width="100%" alt="Capabilities">
+
+<br><br>
+
+<img src="./assets/projects.svg" width="100%" alt="Selected Projects">
+
+</div>
+
+<br>
+
+## `04 / GITHUB INTELLIGENCE`
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&hide_border=true&rank_icon=github&bg_color=090a0c&title_color=d8b968&text_color=a5a7ac&icon_color=d8b968" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=krishgajera-06&hide_border=true&background=090A0C&ring=D8B968&fire=D8B968&currStreakLabel=D8B968&sideLabels=A5A7AC&dates=66686D&currStreakNum=F2F2EF&sideNums=F2F2EF" />
+
+<br>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=090a0c&color=a5a7ac&line=d8b968&point=f0dfaa&area=true&area_color=66552d&hide_border=true&custom_title=Contribution%20Signal" />
+
+</div>
+
+<br>
+
+## `05 / CREDENTIALS`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ◇ Google Cybersecurity
+
+Security fundamentals, Linux, networking, threat analysis, incident response and security operations.
+
+`SECURITY` `LINUX` `NETWORKING`
+
+</td>
+<td width="50%" valign="top">
+
+### ◇ Cybersecurity Internship
+
+Hands-on security work involving deception technology, monitoring, infrastructure and threat analysis.
+
+`MONITORING` `DECEPTION` `ANALYSIS`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## `06 / CURRENT MISSION`
+
+```text
+01  ADVANCED PENETRATION TESTING    ███████░░░  BUILDING
+02  BUG BOUNTY / WEB SECURITY       ██████░░░░  EXPLORING
+03  AI × CYBERSECURITY              ███████░░░  BUILDING
+04  SECURITY ENGINEERING            ████████░░  ACTIVE
+```
+
+<br>
+
+<div align="center">
+
+### `OPEN TO BUILDING THINGS THAT MATTER.`
+
+Cybersecurity · Engineering · AI · Open Source
+
+<br>
 
 <a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><b>LINKEDIN ↗</b></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/krishgajera-06"><b>GITHUB ↗</b></a>
 
-<br><br><br>
-
-### `ENGINEER THE UNKNOWN.`
+<br><br>
 
 <sub>KRISH GAJERA · SURAT, INDIA · 2026</sub>
+
+<br><br>
+
+**`ENGINEER THE UNKNOWN.`**
 
 </div>
