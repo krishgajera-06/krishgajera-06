@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310">
+<defs>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#39d353"/><stop offset=".5" stop-color="#00d9ff"/><stop offset="1" stop-color="#39d353"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.scan{animation:s 4s linear infinite}.cursor{animation:b 1s steps(1) infinite}
+.hex{opacity:.14;animation:p 3s ease-in-out infinite}
+@keyframes s{from{transform:translateY(-25px)}to{transform:translateY(335px)}}
+@keyframes b{50%{opacity:0}} @keyframes p{50%{opacity:.32}}
+</style>
+<rect width="1200" height="310" rx="18" fill="#0d1117"/>
+<g stroke="#238636" stroke-width="1" class="hex">
+<path d="M70 50l22-13 22 13v26L92 89 70 76zM1120 205l22-13 22 13v26l-22 13-22-13zM1010 48l15-9 15 9v18l-15 9-15-9z"/>
+<path d="M15 255H330M870 255h315M0 105h220M980 105h220"/>
+</g>
+<rect x="70" y="35" width="1060" height="240" rx="12" fill="none" stroke="#30363d"/>
+<path d="M70 68V35h33M1097 35h33v33M70 242v33h33M1097 275h33v-33" fill="none" stroke="url(#line)" stroke-width="3" filter="url(#glow)"/>
+<text x="600" y="105" text-anchor="middle" font-size="17" fill="#8b949e">KRISH@CYBERSPACE // IDENTITY VERIFIED</text>
+<text x="600" y="162" text-anchor="middle" font-size="48" font-weight="700" fill="#f0f6fc" filter="url(#glow)">KRISH GAJERA</text>
+<text x="600" y="205" text-anchor="middle" font-size="20" fill="#39d353">CYBERSECURITY × AI × ENGINEERING</text>
+<text x="600" y="241" text-anchor="middle" font-size="14" fill="#8b949e">&gt; securing systems. building intelligence.<tspan class="cursor" fill="#00d9ff">_</tspan></text>
+<rect class="scan" x="72" y="0" width="1056" height="2" fill="#39d353" opacity=".35"/>
+</svg>
