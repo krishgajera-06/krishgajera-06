@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<style>text{font-family:ui-monospace,Menlo,monospace}.title{font-family:Georgia,serif}.r{opacity:.7;animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:1}}</style>
+<rect width="1200" height="500" rx="18" fill="#0a0a0b" stroke="#2b261c"/>
+<text x="70" y="62" font-size="12" letter-spacing="5" fill="#806f49">03 / SELECTED WORK</text><path d="M70 85H1130" stroke="#2b261c"/>
+<g transform="translate(70 115)"><text fill="#806f49" font-size="12">01</text><text class="title" x="65" y="20" fill="#eee5d1" font-size="27">IoT Deception Honeypot</text><text x="65" y="52" fill="#8e8677" font-size="13">DECEPTION · MONITORING · THREAT ANALYSIS</text><text x="1020" y="20" fill="#c9aa68" font-size="22">↗</text></g>
+<path d="M70 205H1130" stroke="#201d17"/>
+<g transform="translate(70 235)"><text fill="#806f49" font-size="12">02</text><text class="title" x="65" y="20" fill="#eee5d1" font-size="27">SecureShield AI</text><text x="65" y="52" fill="#8e8677" font-size="13">AI SECURITY · FASTAPI · THREAT INTELLIGENCE</text><text x="1020" y="20" fill="#c9aa68" font-size="22">↗</text></g>
+<path d="M70 325H1130" stroke="#201d17"/>
+<g transform="translate(70 355)"><text fill="#806f49" font-size="12">03</text><text class="title" x="65" y="20" fill="#eee5d1" font-size="27">Enterprise IaC Pipeline</text><text x="65" y="52" fill="#8e8677" font-size="13">DEVSECOPS · AUTOMATION · INFRASTRUCTURE</text><text x="1020" y="20" fill="#c9aa68" font-size="22">↗</text></g>
+<path d="M70 445H1130" stroke="#201d17"/>
+</svg>

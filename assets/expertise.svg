@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<style>text{font-family:ui-monospace,Menlo,monospace}.h{font-family:Georgia,serif}.f{opacity:0;animation:a .8s ease forwards}@keyframes a{to{opacity:1}}</style>
+<rect width="1200" height="330" rx="18" fill="#0a0a0b" stroke="#2b261c"/>
+<text x="70" y="65" font-size="12" letter-spacing="5" fill="#806f49">02 / EXPERTISE</text>
+<path d="M70 88H1130" stroke="#2b261c"/>
+<g class="f" style="animation-delay:.2s"><text class="h" x="120" y="145" font-size="26" fill="#e9dfc7">SECURITY</text><text x="120" y="185" font-size="14" fill="#9c927e">Linux / Kali</text><text x="120" y="215" font-size="14" fill="#9c927e">Pentesting</text><text x="120" y="245" font-size="14" fill="#9c927e">Honeypots</text><text x="120" y="275" font-size="14" fill="#9c927e">Threat Monitoring</text></g>
+<path d="M400 125V280" stroke="#2b261c"/>
+<g class="f" style="animation-delay:.5s"><text class="h" x="470" y="145" font-size="26" fill="#e9dfc7">ENGINEERING</text><text x="470" y="185" font-size="14" fill="#9c927e">Python / Java</text><text x="470" y="215" font-size="14" fill="#9c927e">React / FastAPI</text><text x="470" y="245" font-size="14" fill="#9c927e">Docker</text><text x="470" y="275" font-size="14" fill="#9c927e">GitHub Actions</text></g>
+<path d="M790 125V280" stroke="#2b261c"/>
+<g class="f" style="animation-delay:.8s"><text class="h" x="860" y="145" font-size="26" fill="#e9dfc7">INTELLIGENCE</text><text x="860" y="185" font-size="14" fill="#9c927e">Machine Learning</text><text x="860" y="215" font-size="14" fill="#9c927e">AI Security</text><text x="860" y="245" font-size="14" fill="#9c927e">Automation</text><text x="860" y="275" font-size="14" fill="#9c927e">Security Analytics</text></g>
+</svg>
