@@ -1,180 +1,151 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Krish Gajera">
-
-<br>
-
-<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/GitHub-111216?style=for-the-badge&logo=github&logoColor=E8C96F"></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/LinkedIn-111216?style=for-the-badge&logo=linkedin&logoColor=E8C96F"></a>
+<img src="./assets/hero.svg" alt="Krish Gajera — Identity Clearance Card" width="100%" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%">
+<br/>
 
-# I engineer secure systems.
+# Security engineer in the making.
 
-Computer Engineering student working across **cybersecurity, software engineering and AI**. My work focuses on practical security: deception systems, threat monitoring, automation, secure infrastructure and intelligent security tooling.
+I build at the intersection of cybersecurity, intelligent systems, and software engineering — exploring how secure infrastructure, automation, and AI combine into systems that are both resilient and useful.
 
-> **Current objective:** become a high-impact cybersecurity engineer by building systems that survive contact with the real world.
+`CYBERSECURITY` &nbsp;·&nbsp; `AI SECURITY` &nbsp;·&nbsp; `SOFTWARE ENGINEERING` &nbsp;·&nbsp; `COMPUTER ENGINEERING`
 
-<br>
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-## 01 — Selected work
+## System status
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| | |
+|---|---|
+| 🟡 **BUILDING** | Security projects |
+| 🟡 **LEARNING** | Advanced penetration testing |
+| 🟡 **EXPLORING** | Bug bounty / web security |
+| 🟡 **RESEARCHING** | AI × cybersecurity |
 
-### 🍯 IoT Deception Honeypot
-**Adversary observation environment**
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-A deception-driven security system for capturing malicious SSH activity, centralizing logs and studying attacker behavior.
+## Capability matrix
 
+**SECURITY**
+Linux · Kali Linux · Penetration Testing · Web Security · Honeypots · Threat Monitoring
+
+**ENGINEERING**
+Python · Java · React · FastAPI · Flask · SQL
+
+**INFRASTRUCTURE**
+Docker · Git · GitHub Actions · CI/CD · PostgreSQL · DevSecOps
+
+**INTELLIGENCE**
+Machine Learning · AI Security · Automation · Security Analytics · Threat Intelligence
+
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<div align="center">
+
+<img src="./assets/security-core.svg" alt="Security architecture core map" width="100%" />
+
+</div>
+
+<br/>
+
+## Selected operations
+
+**01 · IoT Deception Honeypot**
+A deception-technology testbed for observing real attacker behavior against exposed IoT-style services.
 `Cowrie` `Docker` `Grafana` `Loki` `Linux`
+- Deployed Cowrie as a low/medium-interaction honeypot
+- Centralized logs and built live dashboards for attack monitoring
+- Used Grafana + Loki for threat analysis of captured sessions
 
-**Focus** — deception · monitoring · threat analysis
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ SecureShield AI
-**AI-assisted security analysis**
-
-Security platform exploring automated analysis, threat intelligence workflows and AI-assisted investigation.
-
+**02 · SecureShield AI**
+An AI-assisted security analysis service for triaging and investigating threats.
 `Python` `FastAPI` `PostgreSQL` `Docker` `AI`
+- FastAPI backend for structured security analysis workflows
+- PostgreSQL-backed threat intelligence storage
+- AI-assisted investigation to accelerate analyst triage
 
-**Focus** — analysis · automation · security intelligence
+**03 · Student Performance Predictor**
+A full-stack ML application with role-based dashboards.
+`Python` `Machine Learning` `Flask` `React`
+- Flask + React application with authentication
+- Separate student and teacher dashboards
+- ML model driving performance predictions
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**04 · Enterprise IaC Pipeline**
+A DevSecOps pipeline treating infrastructure as versioned, tested code.
+`Docker` `GitHub Actions` `CI/CD` `IaC`
+- Infrastructure as Code across environments
+- CI/CD via GitHub Actions
+- Security checks folded into the pipeline, not bolted on after
 
-### 🧠 Student Performance Predictor
-**Applied machine learning**
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-Prediction system with student and teacher experiences, authentication and ML-powered academic insights.
-
-`Python` `ML` `Flask` `React`
-
-**Focus** — prediction · dashboards · applied ML
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Enterprise IaC Pipeline
-**Infrastructure & DevSecOps**
-
-Repeatable infrastructure automation exploring CI/CD, deployment workflows and DevSecOps engineering.
-
-`IaC` `Docker` `GitHub Actions` `DevOps`
-
-**Focus** — automation · infrastructure · delivery
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 02 — Arsenal
-
-| Security | Engineering | Infrastructure | Intelligence |
-|---|---|---|---|
-| Kali Linux | Python | Docker | Machine Learning |
-| Linux | Java | Git / GitHub | AI Security |
-| Web Security | React | GitHub Actions | Security Analytics |
-| Honeypots | FastAPI / Flask | CI/CD | Automation |
-| Threat Monitoring | SQL | PostgreSQL | Threat Intelligence |
-
-<br>
-
-<div align="center">
-<img src="./assets/thesis.svg" width="100%" alt="Security thesis">
-</div>
-
-<br>
-
-## 03 — GitHub signal
+## Contribution activity
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=krishgajera-06&show_icons=true&hide_border=true&include_all_commits=true&bg_color=08090b&title_color=e4c46e&text_color=b8bac0&icon_color=e4c46e" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=krishgajera-06&hide_border=true&background=08090B&ring=E4C46E&fire=E4C46E&currStreakLabel=E4C46E&sideLabels=B8BAC0&dates=74767C&currStreakNum=F3F3F0&sideNums=F3F3F0" />
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishgajera-06&bg_color=08090b&color=b8bac0&line=e4c46e&point=ffffff&area=true&area_color=5b4b28&hide_border=true&custom_title=Contribution%20Signal" />
+<img src="./assets/contributions.svg" alt="Contribution activity graph" width="100%" />
 
 </div>
 
-<br>
+<sub>Refreshed daily from public GitHub contribution data — see <a href="./scripts">/scripts</a>.</sub>
 
-## 04 — Credentials
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Credentials
 
-### Google Cybersecurity
-Training across security fundamentals, Linux, networking, threat analysis, incident response and security operations.
+**01 · Google Cybersecurity Certificate**
+Security fundamentals · Linux · Networking · Threat analysis · Incident response · Security operations
 
-</td>
-<td width="50%" valign="top">
+**02 · Cybersecurity Internship — InfoTact Solutions**
+Deception technology · Security monitoring · Infrastructure · Threat analysis · Hands-on cybersecurity work
 
-### Cybersecurity Internship
-Practical work involving deception technology, security monitoring, infrastructure and threat analysis.
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-</td>
-</tr>
-</table>
+## Current mission
 
-<br>
-
-## 05 — Current trajectory
-
-```text
-OFFENSIVE SECURITY      ███████░░░   ADVANCING
-WEB / BUG BOUNTY        ██████░░░░   EXPLORING
-AI × CYBERSECURITY      ███████░░░   BUILDING
-SECURITY ENGINEERING    ████████░░   ACTIVE
+```
+ADVANCED PENETRATION TESTING   ████████░░  BUILDING
+BUG BOUNTY / WEB SECURITY      ██████░░░░  EXPLORING
+AI × CYBERSECURITY             ███████░░░  BUILDING
+SECURITY ENGINEERING           ████████░░  ACTIVE
 ```
 
-<br>
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-## 06 — Principles
+## Engineering philosophy
 
-**Build before claiming expertise.**  
-**Understand the attack before designing the defense.**  
-**Automate repetition. Investigate anomalies.**  
-**Make security usable enough that people actually keep it enabled.**
+```
+BUILD BEFORE CLAIMING EXPERTISE.
 
-<br>
+UNDERSTAND THE ATTACK
+BEFORE DESIGNING THE DEFENSE.
 
-<img src="./assets/divider.svg" width="100%">
+AUTOMATE REPETITION.
+INVESTIGATE ANOMALIES.
+
+SECURITY SHOULD BE STRONG
+WITHOUT BECOMING UNUSABLE.
+```
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-### Have an interesting security or engineering problem?
+### HAVE AN INTERESTING SECURITY PROBLEM?
 
-I am interested in **cybersecurity, security engineering, AI security, open source and ambitious technical projects.**
+Let's build something worth defending.
 
-<br>
+[![Connect on LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-0D0F12?style=for-the-badge&logo=linkedin&logoColor=E6C875&labelColor=050607)](https://www.linkedin.com/in/krish-gajera-2b03a43b9)
+[![Explore GitHub](https://img.shields.io/badge/EXPLORE-GITHUB-0D0F12?style=for-the-badge&logo=github&logoColor=E6C875&labelColor=050607)](https://github.com/krishgajera-06)
 
-<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-E4C46E?style=for-the-badge&logo=linkedin&logoColor=08090B"></a>
-&nbsp;
-<a href="https://github.com/krishgajera-06"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-E4C46E?style=for-the-badge&logo=github&logoColor=08090B"></a>
-
-<br><br><br>
+<br/>
 
 **KRISH GAJERA**
+CYBERSECURITY × ENGINEERING × AI
+SURAT, INDIA
 
-`CYBERSECURITY · ENGINEERING · AI`
-
-<sub>SURAT, INDIA</sub>
-
-<br><br>
-
-### `BUILD WHAT OTHERS TRUST.`
+BUILD WHAT OTHERS TRUST.
 
 </div>
