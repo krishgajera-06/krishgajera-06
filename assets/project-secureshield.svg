@@ -13,7 +13,6 @@
         #title1  { opacity: 0; animation: reveal 0.55s ease-out 0.35s forwards; }
         #title2  { opacity: 0; animation: reveal 0.55s ease-out 0.55s forwards; }
         #line    { opacity: 0; animation: reveal 0.5s ease-out 0.85s forwards; }
-        #meta    { opacity: 0; animation: reveal 0.5s ease-out 1.1s forwards; }
       ]]>
     </style>
   </defs>
@@ -23,8 +22,7 @@
   <text id="eyebrow" x="60" y="66" class="mono" font-size="12" fill="#55534E">02&#8202;/&#8202;INTELLIGENCE</text>
   <text id="title1" x="60" y="146" class="serif" font-size="56" font-weight="500" letter-spacing="1">SECURE</text>
   <text id="title2" x="60" y="206" class="serif" font-size="56" font-weight="500" letter-spacing="1" fill="url(#gold)">SHIELD AI</text>
-  <text id="line" x="60" y="248" class="mono" font-size="13" fill="#A6A39B">SECURITY ANALYSIS MEETS&#8202;&#8202;MACHINE INTELLIGENCE.</text>
-  <text id="meta" x="60" y="320" class="mono" font-size="11" fill="#55534E" letter-spacing="4">PYTHON&#8202;&#8202;&#8226;&#8202;&#8202;FASTAPI&#8202;&#8202;&#8226;&#8202;&#8202;POSTGRESQL&#8202;&#8202;&#8226;&#8202;&#8202;DOCKER</text>
+  <text id="line" x="60" y="256" class="mono" font-size="24" fill="#A6A39B">SECURITY ANALYSIS MEETS&#8202;&#8202;MACHINE INTELLIGENCE.</text>
 <g stroke-linecap="round"><line x1="980" y1="110" x2="1060" y2="80" stroke="#D6B96E" stroke-opacity="0.22" stroke-width="1" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.55s" dur="0.4s" fill="freeze"/></line>
 <line x1="980" y1="110" x2="1060" y2="150" stroke="#D6B96E" stroke-opacity="0.22" stroke-width="1" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.57s" dur="0.4s" fill="freeze"/></line>
 <line x1="980" y1="110" x2="1060" y2="220" stroke="#D6B96E" stroke-opacity="0.22" stroke-width="1" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.59s" dur="0.4s" fill="freeze"/></line>

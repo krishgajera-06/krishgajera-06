@@ -13,7 +13,6 @@
         #title1  { opacity: 0; animation: reveal 0.55s ease-out 0.35s forwards; }
         #title2  { opacity: 0; animation: reveal 0.55s ease-out 0.55s forwards; }
         #line    { opacity: 0; animation: reveal 0.5s ease-out 0.85s forwards; }
-        #meta    { opacity: 0; animation: reveal 0.5s ease-out 1.1s forwards; }
       ]]>
     </style>
   </defs>
@@ -23,8 +22,7 @@
   <text id="eyebrow" x="60" y="66" class="mono" font-size="12" fill="#55534E">04&#8202;/&#8202;INFRASTRUCTURE</text>
   <text id="title1" x="60" y="146" class="serif" font-size="56" font-weight="500" letter-spacing="1">ENTERPRISE</text>
   <text id="title2" x="60" y="206" class="serif" font-size="56" font-weight="500" letter-spacing="1" fill="url(#gold)">IaC PIPELINE</text>
-  <text id="line" x="60" y="248" class="mono" font-size="13" fill="#A6A39B">INFRASTRUCTURE AS&#8202;&#8202;VERSIONED SYSTEMS.</text>
-  <text id="meta" x="60" y="320" class="mono" font-size="11" fill="#55534E" letter-spacing="4">DOCKER&#8202;&#8202;&#8226;&#8202;&#8202;GITHUB ACTIONS&#8202;&#8202;&#8226;&#8202;&#8202;CI/CD</text>
+  <text id="line" x="60" y="256" class="mono" font-size="24" fill="#A6A39B">INFRASTRUCTURE AS&#8202;&#8202;VERSIONED SYSTEMS.</text>
 <g><line x1="968" y1="200" x2="1012" y2="200" stroke="#D6B96E" stroke-opacity="0.35" stroke-width="1.2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.60s" dur="0.35s" fill="freeze"/></line>
 <line x1="1028" y1="200" x2="1072" y2="200" stroke="#D6B96E" stroke-opacity="0.35" stroke-width="1.2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.75s" dur="0.35s" fill="freeze"/></line>
 <line x1="1088" y1="200" x2="1132" y2="200" stroke="#D6B96E" stroke-opacity="0.35" stroke-width="1.2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.90s" dur="0.35s" fill="freeze"/></line>

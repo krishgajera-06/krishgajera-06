@@ -1,0 +1,18 @@
+<svg width="260" height="60" viewBox="0 0 260 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>GITHUB</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B99A4E"/><stop offset="100%" stop-color="#E8D394"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+        .mono { font-family: ui-monospace, "SFMono-Regular", monospace; letter-spacing: 3px; font-size: 15px; font-weight: 600; }
+        @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+        #edge { animation: pulse 4s ease-in-out infinite; }
+      ]]>
+    </style>
+  </defs>
+  <rect x="1" y="1" width="258" height="58" rx="2" fill="#0B0B0B"/>
+  <rect id="edge" x="1" y="1" width="258" height="58" rx="2" fill="none" stroke="url(#gold)" stroke-width="1"/>
+  <text x="130" y="35" text-anchor="middle" class="mono" fill="#F5F2EA">GITHUB &#8594;</text>
+</svg>

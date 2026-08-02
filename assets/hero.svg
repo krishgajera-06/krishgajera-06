@@ -22,8 +22,8 @@
       <![CDATA[
         .mono { font-family: ui-monospace, "SFMono-Regular", "Courier New", monospace; }
         .serif { font-family: Georgia, "Times New Roman", serif; }
-        .label { font-size: 11px; letter-spacing: 3px; fill: #55534E; }
-        .label-lit { font-size: 11px; letter-spacing: 3px; fill: #A6A39B; }
+        .label { font-size: 14px; letter-spacing: 2.5px; fill: #55534E; }
+        .label-lit { font-size: 14px; letter-spacing: 2.5px; fill: #A6A39B; }
 
         @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
         @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
@@ -67,13 +67,13 @@
     <text id="m-gajera" x="70" y="418" font-size="128" letter-spacing="2" fill="url(#gold)">GAJERA</text>
   </g>
 
-  <text id="m-tagline" x="72" y="466" class="mono" font-size="16" letter-spacing="2" fill="#A6A39B">I BUILD SYSTEMS <tspan fill="url(#gold)">WORTH DEFENDING.</tspan></text>
+  <text id="m-tagline" x="72" y="470" class="mono" font-size="28" letter-spacing="0.5" fill="#A6A39B">I BUILD SYSTEMS <tspan fill="url(#gold)">WORTH DEFENDING.</tspan></text>
 
   <g class="mono">
-    <text id="m-meta1" x="72" y="520" class="label">KG&#8202;/&#8202;ID-0606&#8202;&#8202;&#8226;&#8202;&#8202;CLEARANCE&#8202;/&#8202;SECURITY ENGINEERING</text>
-    <text id="m-meta2" x="72" y="544" class="label">LOCATION&#8202;/&#8202;SURAT, INDIA&#8202;&#8202;&#8226;&#8202;&#8202;SYSTEM&#8202;/&#8202;ACTIVE</text>
-    <text id="m-meta3" x="72" y="568" class="label">FIELD&#8202;/&#8202;CYBERSECURITY &#215; AI</text>
-    <text id="m-verified" x="72" y="596" class="label-lit" letter-spacing="4">
+    <text id="m-meta1" x="72" y="524" class="label">KG&#8202;/&#8202;ID-0606&#8202;&#8202;&#8226;&#8202;&#8202;CLEARANCE&#8202;/&#8202;SECURITY ENGINEERING</text>
+    <text id="m-meta2" x="72" y="550" class="label">LOCATION&#8202;/&#8202;SURAT, INDIA&#8202;&#8202;&#8226;&#8202;&#8202;SYSTEM&#8202;/&#8202;ACTIVE</text>
+    <text id="m-meta3" x="72" y="576" class="label">FIELD&#8202;/&#8202;CYBERSECURITY &#215; AI</text>
+    <text id="m-verified" x="72" y="606" class="label-lit" letter-spacing="4">
       <tspan id="status-dot" fill="url(#gold)">&#9679;</tspan>&#8202;&#8202;IDENTITY VERIFIED
     </text>
   </g>

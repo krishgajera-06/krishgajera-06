@@ -11,7 +11,7 @@
     <style>
       <![CDATA[
         .mono { font-family: ui-monospace, "SFMono-Regular", monospace; letter-spacing: 3px; }
-        .cat { font-size: 20px; fill: #F5F2EA; font-weight: 600; }
+        .cat { font-size: 32px; fill: #F5F2EA; font-weight: 600; letter-spacing: 2px; }
         .core { font-family: Georgia, serif; fill: #F5F2EA; }
       ]]>
     </style>
@@ -20,31 +20,31 @@
   <text x="60" y="46" class="mono" font-size="12" fill="#55534E" letter-spacing="5">CAPABILITY&#8202;/&#8202;MAP</text>
 
   <g stroke="#D6B96E" stroke-opacity="0.5" stroke-width="1.1">
-    <line x1="600" y1="230" x2="290" y2="140" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.4s" dur="0.5s" fill="freeze"/></line>
-    <line x1="600" y1="230" x2="910" y2="140" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.7s" dur="0.5s" fill="freeze"/></line>
-    <line x1="600" y1="230" x2="290" y2="330" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.0s" dur="0.5s" fill="freeze"/></line>
-    <line x1="600" y1="230" x2="910" y2="330" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.3s" dur="0.5s" fill="freeze"/></line>
+    <line x1="600" y1="230" x2="240" y2="152" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.4s" dur="0.5s" fill="freeze"/></line>
+    <line x1="600" y1="230" x2="960" y2="152" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.7s" dur="0.5s" fill="freeze"/></line>
+    <line x1="600" y1="230" x2="240" y2="316" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.0s" dur="0.5s" fill="freeze"/></line>
+    <line x1="600" y1="230" x2="960" y2="316" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.3s" dur="0.5s" fill="freeze"/></line>
   </g>
 
-  <circle cx="600" cy="230" r="70" fill="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.5s" fill="freeze"/></circle>
-  <circle cx="600" cy="230" r="0" fill="#0B0B0B" stroke="url(#gold)" stroke-width="1.6"><animate attributeName="r" from="0" to="44" begin="1.6s" dur="0.4s" fill="freeze"/></circle>
-  <text x="600" y="224" text-anchor="middle" class="core" font-size="16" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>KRISH</text>
-  <text x="600" y="242" text-anchor="middle" class="mono" font-size="8" fill="#A6A39B" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/>SEC. ENGINEERING</text>
+  <circle cx="600" cy="230" r="76" fill="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.5s" fill="freeze"/></circle>
+  <circle cx="600" cy="230" r="0" fill="#0B0B0B" stroke="url(#gold)" stroke-width="1.8"><animate attributeName="r" from="0" to="52" begin="1.6s" dur="0.4s" fill="freeze"/></circle>
+  <text x="600" y="222" text-anchor="middle" class="core" font-size="22" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>KRISH</text>
+  <text x="600" y="244" text-anchor="middle" class="mono" font-size="10" fill="#A6A39B" letter-spacing="2" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/>SEC. ENGINEERING</text>
 
-  <g>
-    <circle cx="290" cy="140" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="0.4s" dur="0.3s" fill="freeze"/></circle>
-    <text x="270" y="118" text-anchor="end" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.3s" fill="freeze"/>OFFENSIVE</text>
+  <g text-anchor="middle">
+    <circle cx="240" cy="152" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="0.4s" dur="0.3s" fill="freeze"/></circle>
+    <text x="240" y="112" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.3s" fill="freeze"/>OFFENSIVE</text>
   </g>
-  <g>
-    <circle cx="910" cy="140" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="0.7s" dur="0.3s" fill="freeze"/></circle>
-    <text x="930" y="118" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.3s" fill="freeze"/>ENGINEERING</text>
+  <g text-anchor="middle">
+    <circle cx="960" cy="152" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="0.7s" dur="0.3s" fill="freeze"/></circle>
+    <text x="960" y="112" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.3s" fill="freeze"/>ENGINEERING</text>
   </g>
-  <g>
-    <circle cx="290" cy="330" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="1.0s" dur="0.3s" fill="freeze"/></circle>
-    <text x="270" y="358" text-anchor="end" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/>INFRASTRUCTURE</text>
+  <g text-anchor="middle">
+    <circle cx="240" cy="316" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="1.0s" dur="0.3s" fill="freeze"/></circle>
+    <text x="240" y="360" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/>INFRASTRUCTURE</text>
   </g>
-  <g>
-    <circle cx="910" cy="330" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="1.3s" dur="0.3s" fill="freeze"/></circle>
-    <text x="930" y="358" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.3s" fill="freeze"/>INTELLIGENCE</text>
+  <g text-anchor="middle">
+    <circle cx="960" cy="316" r="0" fill="url(#gold)"><animate attributeName="r" from="0" to="7" begin="1.3s" dur="0.3s" fill="freeze"/></circle>
+    <text x="960" y="360" class="mono cat" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.3s" fill="freeze"/>INTELLIGENCE</text>
   </g>
 </svg>
