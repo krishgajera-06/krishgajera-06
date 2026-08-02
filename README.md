@@ -16,14 +16,7 @@ Computer Engineering student working across cybersecurity, software engineering 
 
 <img src="./assets/divider-01.svg" alt="" width="100%" />
 
-<div align="center">
-
-### 01 / IDENTITY
-
-# SECURITY IS NOT<br/>A FEATURE.
-# IT IS AN ENGINEERING<br/>DISCIPLINE.
-
-</div>
+<img src="./assets/manifesto.svg" alt="Security is not a feature. It is an engineering discipline." width="100%" />
 
 <img src="./assets/status.svg" alt="System status" width="100%" />
 
@@ -44,12 +37,6 @@ Computer Engineering student working across cybersecurity, software engineering 
 
 <img src="./assets/divider-03.svg" alt="" width="100%" />
 
-<div align="center">
-
-### 02 / SELECTED OPERATIONS
-
-</div>
-
 <img src="./assets/project-honeypot.svg" alt="IoT Deception Honeypot" width="100%" />
 
 A deception environment for observing real attacker behavior against exposed IoT-style services.
@@ -57,7 +44,7 @@ A deception environment for observing real attacker behavior against exposed IoT
 - Centralized logs into live Grafana + Loki dashboards
 - Attack sessions studied for threat analysis
 
-[Repository ↗](https://github.com/krishgajera-06)
+`Cowrie` `Docker` `Grafana` `Loki` — [Repository ↗](https://github.com/krishgajera-06)
 
 <img src="./assets/project-secureshield.svg" alt="SecureShield AI" width="100%" />
 
@@ -66,7 +53,7 @@ An AI-assisted security analysis service for triaging and investigating threats.
 - PostgreSQL-backed threat intelligence storage
 - AI-assisted investigation to accelerate analyst triage
 
-[Repository ↗](https://github.com/krishgajera-06)
+`Python` `FastAPI` `PostgreSQL` `Docker` — [Repository ↗](https://github.com/krishgajera-06)
 
 <img src="./assets/project-ml.svg" alt="Student Performance Predictor" width="100%" />
 
@@ -75,7 +62,7 @@ A full-stack ML application with role-based dashboards.
 - Separate student and teacher dashboards
 - ML model driving performance predictions
 
-[Repository ↗](https://github.com/krishgajera-06)
+`Python` `Machine Learning` `Flask` `React` — [Repository ↗](https://github.com/krishgajera-06)
 
 <img src="./assets/project-iac.svg" alt="Enterprise IaC Pipeline" width="100%" />
 
@@ -84,7 +71,7 @@ A DevSecOps pipeline treating infrastructure as versioned, tested code.
 - CI/CD via GitHub Actions
 - Security checks built into the pipeline, not bolted on after
 
-[Repository ↗](https://github.com/krishgajera-06)
+`Docker` `GitHub Actions` `CI/CD` — [Repository ↗](https://github.com/krishgajera-06)
 
 <img src="./assets/divider-01.svg" alt="" width="100%" />
 
@@ -98,16 +85,7 @@ A DevSecOps pipeline treating infrastructure as versioned, tested code.
 
 <img src="./assets/divider-02.svg" alt="" width="100%" />
 
-<div align="center">
-
-### 03 / VERIFIED CREDENTIALS
-
-</div>
-
-| | |
-|---|---|
-| **GOOGLE CYBERSECURITY** <br/> `STATUS · COMPLETED` | **INFOTACT SOLUTIONS** <br/> `CYBERSECURITY INTERNSHIP` |
-| Security · Networking · Linux · Incident Response | Deception · Monitoring · Infrastructure · Threat Analysis |
+<img src="./assets/credentials.svg" alt="Verified credentials" width="100%" />
 
 <img src="./assets/protocols.svg" alt="Active protocols" width="100%" />
 
@@ -115,21 +93,14 @@ A DevSecOps pipeline treating infrastructure as versioned, tested code.
 
 <img src="./assets/divider-03.svg" alt="" width="100%" />
 
-<div align="center">
-
-# UNDERSTAND<br/>THE ATTACK.
-# ENGINEER<br/>THE DEFENSE.
-# AUTOMATE<br/>THE REST.
-
-<sub>Build before claiming expertise. Investigate anomalies. Security should be strong without becoming unusable.</sub>
-
-</div>
+<img src="./assets/philosophy.svg" alt="Understand the attack. Engineer the defense. Automate the rest." width="100%" />
 
 <img src="./assets/final.svg" alt="Final transmission" width="100%" />
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-050505?style=for-the-badge&logo=linkedin&logoColor=E8D394&labelColor=0B0B0B)](https://www.linkedin.com/in/krish-gajera-2b03a43b9)
-[![GitHub](https://img.shields.io/badge/GITHUB-050505?style=for-the-badge&logo=github&logoColor=E8D394&labelColor=0B0B0B)](https://github.com/krishgajera-06)
+<a href="https://www.linkedin.com/in/krish-gajera-2b03a43b9"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="60" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/krishgajera-06"><img src="./assets/btn-github.svg" alt="GitHub" height="60" /></a>
 
 </div>
